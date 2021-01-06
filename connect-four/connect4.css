@@ -11,8 +11,9 @@
 .piece {
   /* TODO: make into circles */
   margin: 5px;
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
+  border-radius: 80%;
 }
 
 /* TODO: make pieces red/blue,  depending on player 1/2 piece */
@@ -25,4 +26,11 @@
 
 #column-top td:hover {
   background-color: gold;
+}
+
+.piece.player1 {
+  background-color: blue;
+}
+.piece.player2 {
+  background-color: red;
 }
